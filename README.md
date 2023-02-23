@@ -1,6 +1,8 @@
 # Hospital F5 API
 
+
 # Link a la Documentación en Notion https://www.notion.so/Documentaci-n-API-Hospital-F5-cf7d033453bb4e26a2b5c3476f202033
+
 
 ## ***¿Cómo se instala la API?***
 1. Crea un entorno específicamente para este proyecto. Por ejemplo con conda 
@@ -33,6 +35,7 @@ Añadiendo al final de la **direcciónDelServidor** (ejemplo: http://127.0.0.1:8
 ```
 /pacientes              En esta página podrá consultar los datos de los pacientes disponibles.
 /doctores               En esta página podrá consultar los datos de los doctores disponibles.
+/contacto_pacientes     En esta página podrá consultar los datos de los contactos disponibles.
 /codigo_cita            En esta página podrá consultar los datos de las citas disponibles.
 ```
 
@@ -43,6 +46,7 @@ Para comprobar que todo funciona correctamente antes de empezar a realizar consu
 python tests/test_api
 ```
 Tras ejecutar ese comando debería aparecer una salida mostrando los test completados como la siguiente:
+
 ![test](img/test.png)
 
 Si alguno de los 15 tests fallaran habría que revisar el error y arreglar el problema antes de empezar a utilizar la API.
@@ -57,6 +61,7 @@ Esta API le permite al usuario crear, consultar, actualizar y eliminar datos de 
 Al ejecutar el programa por primera vez, se crearan en el servidor 3 tablas: paciente, doctor y codigo_cita. Estas tablas están relacionadas de la siguiente manera:
 ![esquemauml](img/esquema.png)
 
+
 ## ***Tecnología utilizada***
 
 - Organización: Metodología SCRUM y Trello.com
@@ -65,6 +70,7 @@ Al ejecutar el programa por primera vez, se crearan en el servidor 3 tablas: pac
 - Documentación: MarkDown y Swagger.
 
 ## ***Créditos***
+
 
 Desarrollado por: 
 
@@ -75,3 +81,4 @@ Desarrollado por:
 
 Ejercicio para el bootcamp de Inteligencia Artifical en **Factoría F5**.
 > Contacto: hospitalf5@factoriaf5.org 
+
